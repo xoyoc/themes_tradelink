@@ -2,6 +2,7 @@
 
  function tradelink_styles(){
 
+ 	// Registro de los CSS 
  	wp_register_style( 'animate', get_template_directory_uri().'/css/animate.css', array(), '3.4');
  	wp_register_style( 'bootstrap', get_template_directory_uri().'/css/bootstrap.css', array(),'3.3.5');
  	wp_register_style( 'cards', get_template_directory_uri().'/css/cards.css', array(),'1.0');
@@ -11,7 +12,7 @@
  	wp_register_style( 'owl.theme', get_template_directory_uri().'/css/owl.theme.dafault.min.css', array(),  '1.0' );
  	wp_register_style( 'styles', get_template_directory_uri().'/style.css', array('animate','bootstrap','cards','icomoon','magnific-popup','owl.carusel','owl.theme'),  '1.0' );
 
-
+ 	// Llamado de las hojas de estilos
  	wp_enqueue_style( 'animate' );
  	wp_enqueue_style( 'bootstrap' );
  	wp_enqueue_style( 'cards' );
@@ -22,5 +23,17 @@
  }
 
 add_action( 'wp_enqueue_scripts', 'tradelink_styles' );
+
+
+// Creación de menus 
+
+function tradelink_menus(){
+	register_nav_menus( array(
+			'header-menu' => __('Encabezado Menu','tradelink'),
+			'social-menu' => __('Social Menu','tradelink')
+		));
+}
+
+add_action( 'init', 'tradelink_menus' );
 
 ?>
