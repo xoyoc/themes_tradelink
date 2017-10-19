@@ -11,3 +11,11 @@ Tags: agencia, aduanal, agente, comercio, exterior, tradelink, importacion, expo
 Text Domain: tradelink
 */
 
+.icon{
+	width: 40px;
+}
+
+.boton-rojo{
+	background: red;
+	border-color: red;
+}
