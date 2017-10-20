@@ -42,28 +42,40 @@
 	<!-- END page-->
 
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-   <script src="js/jquery.waypoints.min.js"></script>
+   <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.waypoints.min.js"></script>
 	<!-- Owl Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.min.js"></script>
 	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.magnific-popup.min.js"></script>
 	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.stellar.min.js"></script>
 	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.countTo.js"></script>
 	<!-- WOW -->
-	<script src="js/wow.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js"></script>
 	<script>
 		new WOW().init();
+		
+		$(document).ready(function(){
+		  $(".owl-carousel").owlCarousel({
+		  	    items:1,
+    			margin:10,
+    			loop:true,
+    			autoplay:true,
+    			autoplayTimeout:1000,
+    			autoWidth:true,
+   				autoHeight:true
+		  });
+		});
 	</script>
 	<!-- Main -->
-	<script src="js/main.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 
 	</body>
 </html>

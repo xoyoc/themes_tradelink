@@ -9,7 +9,7 @@
  	wp_register_style( 'icomoon', get_template_directory_uri().'/css/icomoon.css', array(),'1.0');
  	wp_register_style( 'magnific-popup', get_template_directory_uri().'/css/magnific-popup.css', array(),'1.0' );
  	wp_register_style( 'owl.carousel', get_template_directory_uri().'/css/owl.carousel.min.css', array(),  '1.0' );
- 	wp_register_style( 'owl.theme', get_template_directory_uri().'/css/owl.theme.dafault.min.css', array(),  '1.0' );
+ 	wp_register_style( 'owl.theme', get_template_directory_uri().'/css/owl.theme.default.min.css', array(),  '1.0' );
  	wp_register_style( 'styles', get_template_directory_uri().'/style.css', array('animate','bootstrap','cards','icomoon','magnific-popup','owl.carusel','owl.theme'),  '1.0' );
 
  	// Llamado de las hojas de estilos
