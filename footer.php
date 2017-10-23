@@ -42,7 +42,7 @@
 	<!-- END page-->
 
 	<!-- jQuery -->
-	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.2.1.min.js"></script>
 	<!-- jQuery Easing -->
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
@@ -59,20 +59,13 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.countTo.js"></script>
 	<!-- WOW -->
 	<script src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js"></script>
+	<!-- Tether -->
+	<script src="<?php echo get_template_directory_uri(); ?>/js/tether.min.js"></script>
+
+	<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<!--     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
 	<script>
 		new WOW().init();
-		
-		$(document).ready(function(){
-		  $(".owl-carousel").owlCarousel({
-		  	    items:1,
-    			margin:10,
-    			loop:true,
-    			autoplay:true,
-    			autoplayTimeout:1000,
-    			autoWidth:true,
-   				autoHeight:true
-		  });
-		});
 	</script>
 	<!-- Main -->
 	<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
