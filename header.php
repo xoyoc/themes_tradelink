@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Agencia Aduana Tradelink Pacifico en Lázaro Cárdenas " />
 		<meta name="keywords" content="agencia aduanal en lázaro árdenas" />
-		<meta name="author" content="Xoyoc.NET" />
+		<meta name="author" content="Xoyoc.NET - Tec. Antonio Xoyoc Becerra Farias" />
 		
 		<?php wp_head(); ?>
 
