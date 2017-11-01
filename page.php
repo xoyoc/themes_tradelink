@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="es" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<?php wp_head(); ?>
-</head>
-<body>
-	<h1>Pagina de page.php</h1>
-</body>
-</html>
+<?php get_header(); ?>
+
+	<?php while (have_posts()): the_post(); ?>
+		<?php the_post_thumbnail(); ?>
+		<h1> <?php the_title(); ?> </h1>
+		<div class="conteiner">
+			<main>
+				<?php the_content(); ?>
+			</main>
+		</div>
+	<?php endwhile; ?>
+	
+<?php get_footer(); ?>

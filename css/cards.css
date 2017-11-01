@@ -3286,7 +3286,7 @@ a:hover .lnk-icon-right {
 .fh5co-counter-style-1, .fh5co-counter-style-1 .fh5co-section-content-wrap,
 .fh5co-counter-style-2,
 .fh5co-counter-style-2 .fh5co-section-content-wrap {
-  height: 500px;
+  height: 300px;
   width: 100%;
 }
 @media screen and (max-width: 992px) {

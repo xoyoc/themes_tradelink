@@ -1,8 +1,8 @@
-<?php get_header('noticias'); ?>
+<?php get_header('corporativo'); ?>
 	<div style="background: #fa3641;">
 		<div class="row h-25">
 			<div class="col-md-12 text-center mt-4">
-				<h1 class="tituloblanco"><?php the_category( '', '', false ); ?> </h1>
+				<h1 class="tituloblanco"><?php the_title(); ?> </h1>
 			</div>
 		</div>
 	</div>
@@ -13,4 +13,5 @@
 			</main>
 		</div>
 	<?php endwhile; ?>
+	
 <?php get_footer(); ?>

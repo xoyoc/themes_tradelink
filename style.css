@@ -11,8 +11,17 @@ Tags: agencia, aduanal, agente, comercio, exterior, tradelink, importacion, expo
 Text Domain: tradelink
 */
 
-.fh5co-nav-style-1 .fh5co-link-wrap ul li a:hover{
+.fh5co-nav-style-1 .fh5co-link-wrap ul li a:hover, ul.menu li.current_page_item a, h3 {
 	color: #fa3641 !important;
+}
+
+.titulo_pagina{
+	background: #fa3641;
+	height: 3em;
+}
+
+.menu .menu-item-object-page a{
+	color: black !important;
 }
 
 .icon{
@@ -24,11 +33,78 @@ Text Domain: tradelink
 }
 
 .fh5co-footer-style-3{
-	background: "#191919"
+	background: #191919;
+}
+
+.fh5co-footer-style-3 .fh5co-logo{
+	margin-bottom: 10px;
+}
+
+.tituloblanco, .fh5co-copyright, .fh5co-footer-style-3 p, .fh5co-footer-style-3 address, .fh5co-footer-style-3 p a{
+	color: white;
+}
+
+.tituloblanco{
+	text-transform: uppercase;
+}
+
+.fh5co-footer-style-3 address{
+	margin-bottom: 0;
+}
+
+.fh5co-footer-style-3 h3{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.fh5co-footer-style-3 .fh5co-links li{
+	text-transform: uppercase;
+	margin-bottom: 0;
 }
 
 .fh5co-footer-style-3{
 	padding: 0;
+}
+
+
+#menu-social{
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+#menu-social li {
+	position: relative;
+	display: inline-block;
+}
+
+.sr-text{
+	display: none;
+}
+
+#menu-social li a:before{
+	font-family: "FontAwesome";
+	display: top;
+	vertical-align: top;
+	padding: 0 5px;
+	content: '\f046';
+	font-size: 30px;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+}
+
+#menu-social li a[href*="facebook.com"]::before {
+	content: '\f09a';
+}
+#menu-social li a[href*="twitter.com"]::before {
+	content: '\f099';
+}
+#menu-social li a[href*="linkedin.com"]::before {
+	content: '\f0e1';
+}
+#menu-social li a[href*="plus.google.com"]::before {
+	content: '\f0d5';
+	
 }
 
 #item-carrusel-1{
@@ -41,4 +117,22 @@ Text Domain: tradelink
 
 #item-carrusel-3{
 	bottom:380px !important;
+}
+
+@media only srceen and (min-width: 768px) {
+	#menu-social{float:right;} 
+}
+
+.icono{
+	width: 90px;
+	float: left;
+}
+
+div.contenido{
+	float: right;
+	width: 70%;
+}
+
+div.fondo_gris{
+	background: #ECECEC;
 }

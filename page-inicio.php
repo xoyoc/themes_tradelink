@@ -73,59 +73,36 @@
 				<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">Conoce las Noticias más relevantes</p>
 			</div>
 		</div>
+
 		<div class="row p-b">
-			<div class="col-md-4 col-sm-6 col-xs-6 col-xs-12">
-				<div class="fh5co-post wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="1.1s">
-					<div class="fh5co-post-image">
-						<div class="fh5co-overlay"></div>	
-						<div class="fh5co-category"><a href="#">Tutorial</a></div>	
-						<img src="<?php echo get_template_directory_uri(); ?>/images/img_same_dimension_2.jpg" alt="Image" class="img-responsive">
-					</div>
-					<div class="fh5co-post-text">
-						<h3><a href="#">How to Create Cards</a></h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts...</p>
-					</div>
-					<div class="fh5co-post-meta">
-						<a href="#"><i class="icon-chat"></i> 33</a>
-						<a href="#"><i class="icon-clock2"></i> 2 hours ago</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6 col-xs-6 col-xs-12">
-				<div class="fh5co-post wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="1.4s">
-					<div class="fh5co-post-image">
-						<div class="fh5co-overlay"></div>	
-						<div class="fh5co-category"><a href="#">Health</a></div>	
-						<img src="<?php echo get_template_directory_uri(); ?>/images/img_same_dimension_3.jpg" alt="Image" class="img-responsive">
-					</div>
-					<div class="fh5co-post-text">
-						<h3><a href="#">Drinking Ginger and Lemon Tea</a></h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts...</p>
-					</div>
-					<div class="fh5co-post-meta">
-						<a href="#"><i class="icon-chat"></i> 33</a>
-						<a href="#"><i class="icon-clock2"></i> 2 hours ago</a>
+			<?php $args=array(
+					'post_type' => 'post',
+					'posts_per_page' => 3,
+					'orderby' => 'date_create()',
+					'order' => 'ASC',
+					'category_name' => 'noticias'
+				);
+				$noticias = new WP_Query($args);
+				while($noticias->have_posts()): $noticias->the_post();
+			?>
+				<div class="col-md-4 col-sm-6 col-xs-6 col-xs-12">
+					<div class="fh5co-post wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="1.1s">
+						<div class="fh5co-post-image">
+							<div class="fh5co-overlay"></div>	
+							<div class="fh5co-category"><a href="#">Noticias</a></div>	
+							<?php the_post_thumbnail(); ?>
+						</div>
+						<div class="fh5co-post-text">
+							<h3><a href="#"> <?php the_title(); ?> </a></h3>
+							<p> <?php the_excerpt(); ?> </p>
+						</div>
+						<div class="fh5co-post-meta">
+							<a href="#"><i class="icon-chat"></i> 33</a>
+							<a href="#"><i class="icon-clock2"></i> 2 hours ago</a>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="clearfix visible-sm-block"></div>
-			<div class="col-md-4 col-sm-6 col-xs-6 col-xs-12">
-				<div class="fh5co-post wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="1.7s">
-					<div class="fh5co-post-image">
-						<div class="fh5co-overlay"></div>	
-						<div class="fh5co-category"><a href="#">Tips</a></div>	
-						<img src="<?php echo get_template_directory_uri(); ?>/images/img_same_dimension_4.jpg" alt="Image" class="img-responsive">
-					</div>
-					<div class="fh5co-post-text">
-						<h3><a href="#">4 Easy Steps to Create a Soup</a></h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts...</p>
-					</div>
-					<div class="fh5co-post-meta">
-						<a href="#"><i class="icon-chat"></i> 33</a>
-						<a href="#"><i class="icon-clock2"></i> 2 hours ago</a>
-					</div>
-				</div>
-			</div>
+			<?php endwhile; wp_reset_query(); ?>
 			<div class="clearfix visible-sm-block"></div>
 		</div>
 		<div class="row">
@@ -137,7 +114,7 @@
 </div>
 
 <!-- Contadores  -->
-<div class="fh5co-counter-style-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/full_2.jpg);" data-stellar-background-ratio="0.5">
+<div class="fh5co-counter-style-2" style="background-color: #fa3641; color:white;" data-stellar-background-ratio="0.5">
 	<div class="fh5co-overlay"></div>
 	<div class="container">
 		<div class="fh5co-section-content-wrap">

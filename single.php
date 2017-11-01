@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="es" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<?php wp_head(); ?>
-</head>
-<body>
-	<h1>Pagina de single.php</h1>
-</body>
-</html>
+<?php get_header(); ?>
+	<h1>Pagina de index.php</h1>
+<?php get_footer(); ?>
