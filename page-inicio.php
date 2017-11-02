@@ -93,12 +93,12 @@
 							<?php the_post_thumbnail(); ?>
 						</div>
 						<div class="fh5co-post-text">
-							<h3><a href="#"> <?php the_title(); ?> </a></h3>
+							<h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?> </a></h3>
 							<p> <?php the_excerpt(); ?> </p>
 						</div>
 						<div class="fh5co-post-meta">
-							<a href="#"><i class="icon-chat"></i> 33</a>
-							<a href="#"><i class="icon-clock2"></i> 2 hours ago</a>
+							<a href="<?php the_permalink(); ?>"><i class="icon-chat"></i> <?php $time = human_time_diff( get_the_time('U') , current_time('timestamp') ); echo $time; ?> </a>
+							<a href="<?php the_permalink(); ?>"><i class="icon-clock2"></i> <?php the_time('H');  echo(" de "); the_time('M');  ?> </a>
 						</div>
 					</div>
 				</div>

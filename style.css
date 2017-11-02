@@ -20,6 +20,17 @@ Text Domain: tradelink
 	height: 3em;
 }
 
+.btn-info{
+	background: #fa3641 !important;
+	border-color: #fa3641 !important;
+}
+
+.btn-info:hover{
+	background: black !important;
+	border-color: black !important;
+}
+
+
 .menu .menu-item-object-page a{
 	color: black !important;
 }
@@ -135,4 +146,14 @@ div.contenido{
 
 div.fondo_gris{
 	background: #ECECEC;
+}
+
+.wp-post-image {
+	width: 540px;
+	height: auto;
+}
+
+div.entrada .wp-post-image{
+	width: 100%;
+	height: auto;	
 }
