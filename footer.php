@@ -13,7 +13,7 @@
 					</div>
 					<div class="clearfix visible-sm-block"></div>
 					<div class="col-md-3 col-sm-6 my-auto fh5co-footer-widget wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="1.1s">
-						<h3>Enlaces importantes</h3>
+						<h3 class="pb-2" style="color: white  !important;" >Enlaces importantes</h3>
 						<ul class="fh5co-links">
 							<li><a href="http://www.puertolazarocardenas.com.mx">apilac</a></li>
 							<li><a href="http://www.aaalac.mx">aaalac</a></li>

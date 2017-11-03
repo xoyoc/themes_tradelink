@@ -20,5 +20,11 @@
 				<?php endwhile; ?>
 			</div>
 		</main>
+		<div class="row my-3 justify-content-md-center">
+			<div class="col-md-4 text-center">
+				<p class="py-1 mb-1 font-weight-bold">Más noticias</p>
+				<?php echo paginate_links(); ?>	
+			</div>
+		</div>
 	</div>
 <?php get_footer(); ?>

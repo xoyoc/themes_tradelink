@@ -8,7 +8,7 @@
 			<div class="col-md-6 offset-md-3 text-center">
 				<h2 class="fh5co-heading wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Agencia Aduanal Tradelink Pacífico</h2>
 				<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">No somos una agencia aduanal de despachos: somos una agencia aduanal de servico.</p>
-				<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s"><a href="#" class="btn btn-success btn-lg">Conoce quíenes somos</a></p>
+				<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s"><a href="index.php/quienes-somos" class="btn btn-success btn-lg">Conoce quíenes somos</a></p>
 			</div>
 		</div>
 	</div>
@@ -107,7 +107,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4 offset-md-4 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
-				<a href="#" class="btn btn-primary btn-lg">Ver todas las noticias</a>
+				<a href="index.php/noticias" class="btn btn-primary btn-lg">Ver todas las noticias</a>
 			</div>
 		</div>
 	</div>

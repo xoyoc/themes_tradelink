@@ -11,7 +11,7 @@ Tags: agencia, aduanal, agente, comercio, exterior, tradelink, importacion, expo
 Text Domain: tradelink
 */
 
-.fh5co-nav-style-1 .fh5co-link-wrap ul li a:hover, ul.menu li.current_page_item a, h3 {
+.textrojo, .fh5co-nav-style-1 .fh5co-link-wrap ul li a:hover, ul.menu li.current_page_item a, h3, ul.menu li.current_page_parent a{
 	color: #fa3641 !important;
 }
 
@@ -156,4 +156,51 @@ div.fondo_gris{
 div.entrada .wp-post-image{
 	width: 100%;
 	height: auto;	
+}
+
+.page-numbers{
+	font-size: 20px;
+	color: #fa3641;
+}
+
+.current{
+	background-color: #fa3641;
+	color: white;
+	padding: 0 5px;
+}
+
+.contacto-formulario input,.contacto-formulario textarea{
+	width: 80%;
+}
+
+.mapa-contacto{
+	min-height: 750px;
+}
+
+.contacto-formulario input{
+	border: solid 1px black;
+	margin: 1em 0;
+}
+
+.contacto-formulario input[type="submit"]{
+	border: solid 1px black;
+	margin: 1em 0;
+}
+.contacto-formulario textarea{
+	border: solid 1px black;
+	margin: 1em 0;
+}
+
+.info-contacto p, .info-contacto address{
+	padding: 0;
+	margin: 0;
+}
+
+.info-contacto{
+	margin-top: 15em;
+}
+
+.info-corporativo p, .info-corporativo address{
+	margin:0;
+	padding: 0;
 }
