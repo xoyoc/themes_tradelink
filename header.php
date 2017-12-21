@@ -28,7 +28,7 @@
 				<!-- Logotipo de la empresa -->
 					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 fh5co-logo">
 						<a href="#" class="js-fh5co-mobile-toggle fh5co-nav-toggle"><i></i></a>
-						<a href=" <? php echo esc_url( home_url('/') ); ?> "><img src="<?php echo get_template_directory_uri(); ?>/images/Logo-Tradelink-Color.svg" alt="Logotipo"></a>
+						<a href=" <?php echo esc_url( home_url('/') ); ?> "> <img src="<?php echo get_template_directory_uri(); ?>/images/Logo-Tradelink-Color.svg" alt="Logotipo"></a>
 					</div>
 				<!-- Fin Logotipo de la empresa -->
 				<!-- menu interactivo -->
