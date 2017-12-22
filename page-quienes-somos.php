@@ -31,14 +31,14 @@
 				<div class="col-md-4">
 					<img class="icono" src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Mision.svg">
 					<div class="contenido">
-						<h3>Mision</h3>
+						<h3>Misión</h3>
 						<p>Nos preocupamos que los importadores reciban su carga, y los exportadores envíen su mercancía al extranjero, en forma rápida, amable y precisa</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<img class="icono" src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Vision.svg">
 					<div class="contenido">
-						<h3>Vision</h3>
+						<h3>Visión</h3>
 						<p>Hacer fáciles las operaciones para nuestros clientes</p>
 					</div>
 				</div>

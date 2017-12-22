@@ -55,8 +55,8 @@
 					<div  class="carousel-item active">
 						<img class="d-block img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/01-Foto_Principal.jpg" alt="Slider Home">
 						<div class="conteiner">
-							<div id="item-carrusel-1" class="carousel-caption d-none d-md-block pb-5">
-								<p class="w-50 m-auto wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s"><strong>Nos distinguimos por ser la agencia aduanal</strong> que facilita las operaciones de importación y exportación de nuestros clientes</p>
+							<div id="item-carrusel-1" class="carousel-caption d-none d-md-block pb-5 h4">
+								<p class="w-75 m-auto wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s"><strong>Nos distinguimos por ser la agencia aduanal</strong> que facilita las operaciones de importación y exportación de nuestros clientes</p>
 								<img class="w-25 p-3 wow fadeInUp" src="<?php echo get_template_directory_uri(); ?>/images/Logo-Anab-Negro.svg" alt="Logo Anab" data-wow-duration="1s" data-wow-delay="1.4s">
 							</div>
 						</div>
@@ -64,7 +64,7 @@
 					<div class="carousel-item">	
 						<img class="d-block" src="<?php echo get_template_directory_uri(); ?>/images/02-Foto_Principal.jpg" alt="Slider Home">
 						<div class="conteiner">
-							<div id="item-carrusel-2" class="carousel-caption d-none d-md-block pb-5">
+							<div id="item-carrusel-2" class="carousel-caption d-none d-md-block pb-5 h4">
 								<p class="w-75 m-auto wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s"><strong>Nos distinguimos por ser la agencia aduanal</strong> que facilita las operaciones de importación y exportación de nuestros clientes</p>
 								<img class="w-25 p-3 wow fadeInUp" src="<?php echo get_template_directory_uri(); ?>/images/Logo-Anab-Negro.svg" alt="Logo Anab" data-wow-duration="1s" data-wow-delay="1.4s">
 							</div>
@@ -73,9 +73,9 @@
 					<div class="carousel-item">
 						<img class="d-block" src="<?php echo get_template_directory_uri(); ?>/images/03-Foto_Principal.jpg" alt="Slider Home">
 						<div class="conteiner">
-							<div id="item-carrusel-3" class="carousel-caption d-none d-md-block pb-5">
-								<p class="w-75 mx-auto mb-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s"><strong>Nos distinguimos por ser la agencia aduanal</strong> que facilita las operaciones de importación y exportación de nuestros clientes</p>
-								<img class="w-25 wow fadeInUp" src="<?php echo get_template_directory_uri(); ?>/images/Logo-Anab-Negro.svg" alt="Logo Anab" data-wow-duration="1s" data-wow-delay="1.4s">
+							<div id="item-carrusel-3" class="carousel-caption d-none d-md-block pb-5 h4">
+								<p class="w-75 m-auto wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s"><strong>Nos distinguimos por ser la agencia aduanal</strong> que facilita las operaciones de importación y exportación de nuestros clientes</p>
+								<img class="w-25 p-3 wow fadeInUp" src="<?php echo get_template_directory_uri(); ?>/images/Logo-Anab-Negro.svg" alt="Logo Anab" data-wow-duration="1s" data-wow-delay="1.4s">
 							</div>
 						</div>
 					 </div>
