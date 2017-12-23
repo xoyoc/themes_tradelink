@@ -34,12 +34,12 @@
 
 					<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s" style="border-right-color: rgba(0, 0, 0, 1); border-top-color: rgba(0, 0, 0, 1);">
 						<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_AsesoriaAran_Black.svg" alt="Asesoria Arrancelaria"></div>
-						<h3>Asesoría arrancelaria</h3>
+						<h3>Asesoría arancelaria</h3>
 						<p style="color: black !important;" >Asesoría en clasificación arancelaria y normatividad.</p>
 					</div>
 					<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s" style="border-right-color: rgba(0, 0, 0, 1); border-top-color: rgba(0, 0, 0, 1);">
 						<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_ClasifAran_Black.svg" alt="Clasificacion arrancelaria"></div>
-						<h3>Clasificación arrancelaria</h3>
+						<h3>Clasificación arancelaria</h3>
 						<p style="color: black !important;" >Clasificación arancelaria y normatividad.</p>
 					</div>
 					<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.3s" style="border-top-color: rgba(0, 0, 0, 1);">

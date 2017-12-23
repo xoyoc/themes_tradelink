@@ -7,7 +7,7 @@
 		<div class="row p-b">
 			<div class="col-md-6 offset-md-3 text-center">
 				<h2 class="fh5co-heading wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Agencia Aduanal Tradelink Pacífico</h2>
-				<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">No somos una agencia aduanal de despachos: somos una agencia aduanal de servico.</p>
+				<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">No somos una agencia aduanal de despachos; somos una agencia aduanal de servico.</p>
 				<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s"><a href="index.php/quienes-somos" class="btn btn-success btn-lg">Conoce quíenes somos</a></p>
 			</div>
 		</div>
@@ -45,12 +45,12 @@
 
 				<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s">
 					<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_AsesoriaAran.svg" alt="Asesoria Arrancelaria"></div>
-					<h3>Asesoría arrancelaria</h3>
+					<h3>Asesoría arancelaria</h3>
 					<p>Asesoría en clasificación arancelaria y normatividad.</p>
 				</div>
 				<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
 					<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_ClasifAran.svg" alt="Clasificacion arrancelaria"></div>
-					<h3>Clasificación arrancelaria</h3>
+					<h3>Clasificación arancelaria</h3>
 					<p>Clasificación arancelaria y normatividad.</p>
 				</div>
 				<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.3s">

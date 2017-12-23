@@ -9,7 +9,7 @@
 	<div class="container">
 		<div class="row mt-4">
 			<div class="col-md-6">
-				<h3>¿Quienes somos?</h3>
+				<h3>¿Quiénes somos?</h3>
 				<p>El despacho aduanal, como proceso, inicia con una planeación previa, continúa con el trámite ante aduana y, finalmente, se conservan archivos electrónicos a disposición de la autoridad: En Tradelink Pacífico no somos una agencia aduanal de despacho:  somos una agencia aduanal de servicio. Porque Tradelink Pacífico, es la agencia aduanal que lo acompaña a lo largo del proceso de despacho aduanal, lo que le garantiza el cumplimiento de la normatividad en materia aduanal y de comercio exterior.</p>
 			</div>
 			<div class="col-md-6">
