@@ -8,7 +8,7 @@
 			<div class="col-md-6 offset-md-3 text-center">
 				<h2 class="fh5co-heading wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Agencia Aduanal Tradelink Pacífico</h2>
 				<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">No somos una agencia aduanal de despachos; somos una agencia aduanal de servico.</p>
-				<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s"><a href="index.php/quienes-somos" class="btn btn-success btn-lg">Conoce quíenes somos</a></p>
+				<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s"><a href="index.php/quienes-somos" class="btn btn-success btn-lg">Conoce quiénes somos</a></p>
 			</div>
 		</div>
 	</div>
@@ -35,7 +35,7 @@
 				<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
 					<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_Atencion.svg" alt="Servicios Antencio"></div>
 					<h3>Excelente atención y servicio</h3>
-					<p>La mayor disponibilidad y atención al estaus de sus embarques.</p>
+					<p>La mayor disponibilidad y atención al status de sus embarques.</p>
 				</div>
 				<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s">
 					<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_Legalidad.svg" alt="Servicios Operaciones"></div>
