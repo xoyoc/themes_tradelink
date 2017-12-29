@@ -11,7 +11,7 @@
 			<h3 class="text-uppercase w-75 text-center mx-auto">Nuestro compromiso es proporcionar el mejor servicio</h3>
 			<div class="row">
 				<div class="col-md-6">
-					<h4 class="w-75 text-center mx-auto">¿Tines alguna duda o comentario? ¡Escríbenos!</h4>
+					<h4 class="w-75 text-center mx-auto">¿Tienes alguna duda o comentario? ¡Escríbenos!</h4>
 					<form class="contacto-formulario my-5" method="post">
 						<input  class="border" type="text" placeholder="Nombre">
 						<input  class="border" type="email" placeholder="E-mail">
