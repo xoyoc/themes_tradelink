@@ -18,34 +18,34 @@
 				<div class="fh5co-features">
 					<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s" style="border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1);">
 						<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_Despacho_LogAduanal_Black.svg" alt="Servicios Logisticos"></div>
-						<h3>Despacho y logística aduanal</h3>
+						<h3>Rapidez en el despacho aduanal</h3>
 						<p style="color: black !important;" >Despacho y logística aduanal en un servicio integrado con un solo contacto.</p>
 					</div>
 					<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s" style="border-right-color: rgba(0, 0, 0, 1); border-bottom-color: rgba(0, 0, 0, 1);">
 						<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_Atencion_Black.svg" alt="Servicios Antencio"></div>
 						<h3>Excelente atención y servicio</h3>
-						<p style="color: black !important;" >La mayor disponibilidad y atención al estaus de sus embarques.</p>
+						<p style="color: black !important;">La mayor disponibilidad y atención al estaus de sus embarques.</p>
 					</div>
 					<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s" style="border-bottom-color: rgba(0, 0, 0, 1);">
 						<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_Legalidad_Black.svg" alt="Servicios Operaciones"></div>
 						<h3>Lo hacemos fácil</h3>
-						<p style="color: black !important;" >Facilitamos sus operaciones, cumpliendo siempre con la legalidad.</p>
+						<p style="color: black !important;">Facilitamos sus operaciones, cumpliendo siempre con la legalidad.</p>
 					</div>
 
 					<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s" style="border-right-color: rgba(0, 0, 0, 1); border-top-color: rgba(0, 0, 0, 1);">
 						<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_AsesoriaAran_Black.svg" alt="Asesoria Arrancelaria"></div>
 						<h3>Asesoría arancelaria</h3>
-						<p style="color: black !important;" >Asesoría en clasificación arancelaria y normatividad.</p>
+						<p style="color: black !important;">Asesoría en clasificación arancelaria y normatividad.</p>
 					</div>
 					<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s" style="border-right-color: rgba(0, 0, 0, 1); border-top-color: rgba(0, 0, 0, 1);">
 						<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_ClasifAran_Black.svg" alt="Clasificacion arrancelaria"></div>
-						<h3>Clasificación arancelaria</h3>
-						<p style="color: black !important;" >Clasificación arancelaria y normatividad.</p>
+						<h3>Cuentas de gastos extra rápidas</h3>
+						<p style="color: black !important;">100% deducibles y sin cobros inexistentes.</p>
 					</div>
 					<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.3s" style="border-top-color: rgba(0, 0, 0, 1);">
 						<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_Cuentas_Black.svg" alt="Cuentas de gastos"></div>
-						<h3>Cuentas de gastos extra</h3>
-						<p style="color: black !important;" >100% deducibles y sin cobros inexistentes.</p>
+						<h3></h3>
+						<p style="color: black !important;"></p>
 					</div>
 
 				</div>

@@ -29,7 +29,7 @@
 			<div class="fh5co-features">
 				<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
 					<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_Despacho_LogAduanal.svg" alt="Servicios Logisticos"></div>
-					<h3>Despacho y logística aduanal</h3>
+					<h3>Rapidez en el despacho aduanal</h3>
 					<p>Despacho y logística aduanal en un servicio integrado con un solo contacto.</p>
 				</div>
 				<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
@@ -50,13 +50,13 @@
 				</div>
 				<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
 					<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_ClasifAran.svg" alt="Clasificacion arrancelaria"></div>
-					<h3>Clasificación arancelaria</h3>
-					<p>Clasificación arancelaria y normatividad.</p>
+					<h3>Cuentas de gastos extra rápidas</h3>
+					<p>100% deducibles y sin cobros inexistentes.</p>
 				</div>
 				<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.3s">
 					<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_Cuentas.svg" alt="Cuentas de gastos"></div>
-					<h3>Cuentas de gastos extra</h3>
-					<p>100% deducibles y sin cobros inexistentes.</p>
+					<h3></h3>
+					<p></p>
 				</div>
 
 			</div>
