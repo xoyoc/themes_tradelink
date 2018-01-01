@@ -49,12 +49,12 @@
 					<p>Asesoría en clasificación arancelaria y normatividad.</p>
 				</div>
 				<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
-					<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_ClasifAran.svg" alt="Clasificacion arrancelaria"></div>
+					<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_Cuentas.svg" alt="Cuenta de gastos"></div>
 					<h3>Cuentas de gastos extra rápidas</h3>
 					<p>100% deducibles y sin cobros inexistentes.</p>
 				</div>
 				<div class="fh5co-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.3s">
-					<div class="icon mx-auto"><img src="<?php echo get_template_directory_uri(); ?>/Iconos/Logo-Servicios_Cuentas.svg" alt="Cuentas de gastos"></div>
+					<div class="icon mx-auto"></div>
 					<h3></h3>
 					<p></p>
 				</div>
