@@ -57,7 +57,7 @@
 			</div>
 			<dir class="row">
 				<div class="col-md-12">
-					<h3>Aviso de Privacidad</h3>
+					<a href="http://www.tradelinkpacifico.com.mx/aviso-de-privacidad/"><h3>Aviso de Privacidad</h3></a>
 				</div>
 			</dir>
 		</div>
