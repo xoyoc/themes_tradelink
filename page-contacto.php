@@ -28,5 +28,5 @@
 			</div>
 		</main>
 	</div>
-	<div class="mapa-contacto mt-5" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Mapa-Contacto.png');"> </div>
+	<iframe class="mapa-contacto mt-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.6165726914587!2d-102.2225517235216!3d17.980883816759224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84315cfacb65ce79%3A0xb0eec6fd3b7b7120!2sAgencia+Aduanal+Tradelink+Pacifico!5e0!3m2!1ses-419!2smx!4v1515793353859" width="1024" height="750" frameborder="0" style="border:0" allowfullscreen></iframe>
 <?php get_footer(); ?>

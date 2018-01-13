@@ -76,28 +76,28 @@
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="fh5co-testimonial-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
 						<div class="fh5co-name">
-							<img src="images/person_5.jpg" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/testimonios/foto-01.png" alt="">
 							<div class="fh5co-meta">
-								<h3>Chris Clark</h3>
-								<span class="fh5co-company">XYZ Inc.</span>
+								<h3>Ana López</h3>
+								<span class="fh5co-company"></span>
 							</div>
 						</div>
 						<div class="fh5co-text">
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+							<p>&ldquo;Estamos muy agradecidos con Tradelink por todas sus atenciones y la ayuda brindada a nuestros despachos. Estamos muy contentos con el servicio que nos da.&rdquo;</p>
 						</div>
 					</div>	
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="fh5co-testimonial-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s">
 						<div class="fh5co-name">
-							<img src="images/person_4.jpg" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/testimonios/foto-02.png" alt="">
 							<div class="fh5co-meta">
-								<h3>Ian Stewart</h3>
-								<span class="fh5co-company">XYZ Inc.</span>
+								<h3>John Stone</h3>
+								<span class="fh5co-company"></span>
 							</div>
 						</div>
 						<div class="fh5co-text">
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;</p>
+							<p>&ldquo;Thanks for your compliment and Thanks for your hard work to make our shipments smoothly.&rdquo;</p>
 						</div>
 					</div>
 				</div>
@@ -107,14 +107,14 @@
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="fh5co-testimonial-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s">
 						<div class="fh5co-name">
-							<img src="images/person_3.jpg" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/testimonios/foto-03.png" alt="">
 							<div class="fh5co-meta">
-								<h3>Mitch Silk</h3>
-								<span class="fh5co-company">XYZ Inc.</span>
+								<h3>María Jiménez</h3>
+								<span class="fh5co-company"></span>
 							</div>
 						</div>
 						<div class="fh5co-text">
-							<p>&ldquo;Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+							<p>&ldquo;Muchas gracias por la rapidez del servicio, cada día se nota la mejora de sus procesos y siempre muy confiables y eficientes.&rdquo;</p>
 						</div>
 					</div>
 				</div>
@@ -124,14 +124,14 @@
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="fh5co-testimonial-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
 						<div class="fh5co-name">
-							<img src="images/person_1.jpg" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/testimonios/foto-04.png" alt="">
 							<div class="fh5co-meta">
-								<h3>Beth Glasgow</h3>
-								<span class="fh5co-company">XYZ Inc.</span>
+								<h3>Alberto Sosa</h3>
+								<span class="fh5co-company"></span>
 							</div>
 						</div>
 						<div class="fh5co-text">
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;</p>
+							<p>&ldquo;Muy satisfechos con el servicio recibido. Han realizado un excelente trabajo con nuestra importante exportación, estamos seguros que volveremos a trabajar con ustedes en nuestras próximas exportaciones.&rdquo;</p>
 						</div>
 					</div>	
 				</div>
@@ -141,29 +141,28 @@
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="fh5co-testimonial-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.3s">
 						<div class="fh5co-name">
-							<img src="images/person_2.jpg" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/testimonios/foto-05.png" alt="">
 							<div class="fh5co-meta">
-								<h3>Rob Smith</h3>
-								<span class="fh5co-company">XYZ Inc.</span>
+								<h3>Alma Solís</h3>
+								<span class="fh5co-company"></span>
 							</div>
 						</div>
 						<div class="fh5co-text">
-							
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+							<p>&ldquo;Quiero expresar mi felicitación por contar con un excelente personal. La atención al cliente ha sido impecable, cuentan con un alto sentido de la responsabilidad y verdaderamente tienen puesta la camiseta de la empresa.&rdquo;</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="fh5co-testimonial-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.6s">
 						<div class="fh5co-name">
-							<img src="images/person_6.jpg" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/testimonios/foto-06.png" alt="">
 							<div class="fh5co-meta">
-								<h3>Colleen Bass</h3>
-								<span class="fh5co-company">XYZ Inc.</span>
+								<h3>Samuel Orellana</h3>
+								<span class="fh5co-company"></span>
 							</div>
 						</div>
 						<div class="fh5co-text">
-							<p>&ldquo;Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+							<p>&ldquo;Agradecemos inmensamente el apoyo brindando, son los mejores prestadores de servicios con los que hemos trabajado. La atención personalizada y el profesionalismo de todo el equipo es de admirarse.&rdquo;</p>
 						</div>
 					</div>
 				</div>

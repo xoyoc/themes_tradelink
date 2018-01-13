@@ -11,7 +11,7 @@
 		<div class="container" style="z-index: 3; position: relative; color: black !important;">
 			<div class="row justify-content-sm-around pt-4">
 				<div class="col-md-3 text-center">
-					<p style="color: black !important;">Descubre todo lo que podemos hacer por tu empresa</p>
+					<p style="color: black !important;">Servicios integrados adaptados a sus necesidades</p>
 				</div>
 			</div>
 			<div class="row">
